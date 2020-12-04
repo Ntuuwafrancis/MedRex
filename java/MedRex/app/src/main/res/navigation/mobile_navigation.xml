@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.francosoft.medrex.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_medicine"
+        android:name="com.francosoft.medrex.ui.medicine.MedicineFragment"
+        android:label="@string/txt_medicine"
+        tools:layout="@layout/medicine_fragment" />
+
+    <fragment
+        android:id="@+id/nav_medication"
+        android:name="com.francosoft.medrex.ui.medication.MedicationFragment"
+        android:label="@string/txt_medication"
+        tools:layout="@layout/medication_fragment" />
+
+    <fragment
+        android:id="@+id/nav_prescription"
+        android:name="com.francosoft.medrex.ui.prescription.PrescriptionFragment"
+        android:label="@string/txt_prescription"
+        tools:layout="@layout/prescription_fragment" />
+
+    <fragment
+        android:id="@+id/nav_hCondition"
+        android:name="com.francosoft.medrex.ui.healthcondition.HealthConditionFragment"
+        android:label="@string/txt_hCondition"
+        tools:layout="@layout/health_condition_fragment" />
+
+    <fragment
+        android:id="@+id/nav_hCenter"
+        android:name="com.francosoft.medrex.ui.healthcenter.HealthCenterFragment"
+        android:label="@string/txt_hCenter"
+        tools:layout="@layout/health_center_fragment" />
+
+    <fragment
+        android:id="@+id/nav_doctor"
+        android:name="com.francosoft.medrex.ui.doctor.DoctorFragment"
+        android:label="@string/txt_doctor"
+        tools:layout="@layout/doctor_fragment" />
+
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.francosoft.medrex.ui.emergency.EmergencyFragment"
+        android:label="@string/txt_emergency"
+        tools:layout="@layout/emergency_fragment" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_profile"-->
+<!--        android:name=""-->
+<!--        android:label="@string/txt_profile"-->
+<!--        tools:layout="@layout/profile_fragment" />-->
+</navigation>

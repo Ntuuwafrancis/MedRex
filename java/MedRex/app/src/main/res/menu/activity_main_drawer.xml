@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_doctors"
+            android:title="@string/txt_doctor" />
+
+        <item
+            android:id="@+id/nav_medicine"
+            android:icon="@drawable/ic_pill"
+            android:title="@string/txt_medicine"></item>
+
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/ic_medication"
+            android:title="@string/txt_medication" />
+
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/ic_prescription"
+            android:title="@string/txt_prescription" />
+
+        <item
+            android:id="@+id/nav_hCenter"
+            android:icon="@drawable/ic_health_centers"
+            android:title="@string/txt_hCenter" />
+
+        <item
+            android:id="@+id/nav_hCondition"
+            android:icon="@drawable/ic_local_hospital"
+            android:title="@string/txt_hCondition" />
+
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_medical_services"
+            android:title="@string/txt_emergency" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings" />
+
+        <!--        <item-->
+        <!--            android:id="@+id/nav_profile"-->
+        <!--            android:icon="@drawable/ic_menu_slideshow"-->
+        <!--            android:title="@string/menu_profile" />-->
+    </group>
+
+    <item android:title="@string/menu_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_rate"
+                android:title="@string/txt_rate" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="?attr/actionModeShareDrawable"
+                android:title="@string/txt_share" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/txt_feedback" />
+
+
+        </menu>
+    </item>
+
+</menu>
